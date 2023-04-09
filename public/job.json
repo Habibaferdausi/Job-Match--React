@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "category": "Accounting & Finance",
+    "logo": "https://example.com/logo.png",
+    "available_jobs": 300
+  },
+  {
+    "id": 2,
+    "category": "Creative Design",
+    "logo": "https://example.com/logo.png",
+    "available_jobs": 100
+  },
+
+  {
+    "id": 3,
+    "category": "Marketing & Sales",
+    "logo": "https://example.com/logo.png",
+    "available_jobs": 150
+  },
+  {
+    "id": 4,
+    "category": "Engineering Job",
+    "logo": "https://example.com/logo.png",
+    "available_jobs": 224
+  }
+]
