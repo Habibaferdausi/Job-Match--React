@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn-new {
+    @apply bg-gradient-to-r from-cyan-500  to-purple-600 hover:from-purple-700 hover:to-purple-500   text-white font-semibold py-2 px-4 rounded transition-all duration-200;
+  }
+}
+
+.my-container {
+  @apply px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20;
+}
