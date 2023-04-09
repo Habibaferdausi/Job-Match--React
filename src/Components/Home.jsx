@@ -36,10 +36,23 @@ const Home = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid gap-5 mb-8 lg:grid-cols-4 sm:grid-cols-2">
+      <div className="grid gap-5 mb-8 mx-20 lg:grid-cols-4 sm:grid-cols-2">
         {jobs.map((job) => (
           <JobCategory key={job.id} job={job}></JobCategory>
         ))}
+      </div>
+
+      <div className="mt-10 lg:mt-20 ">
+        <div>
+          <h1 className="text-center text-xl lg:text-4xl font-bold text-gray-900 mb-3 mt-3 p-1 lg:mt-6 lg:pt-7">
+            Featured Jobs
+          </h1>
+          <p className=" text-gray-500 text-center mb-10">
+            Explore thousands of job opportunities with all the information you
+            need. Its your future
+          </p>
+        </div>
+        <div></div>
       </div>
     </div>
   );

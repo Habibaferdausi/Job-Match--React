@@ -3,15 +3,13 @@ import React from "react";
 const JobCategory = (job) => {
   const { id, category, logo, available_jobs } = job.job;
   return (
-    <div className="">
-      <img
-        className="flex-shrink-0 object-cover w-20 h-20 border-transparent rounded outline-none sm:w-32 sm:h-32 bg-gray-500"
-        src={logo}
-        alt="Polaroid camera"
-      />
+    <div className="bg-purple-200 p-7 rounded">
+      <img className="h-12 w-12 bg-purple-300 p-3 rounded " src={logo} alt="" />
 
-      <h3 className="text-lg font-semibold leading-snug sm:pr-8">{category}</h3>
-      <p className="text-sm text-gray-400">{available_jobs}</p>
+      <h3 className="text-lg font-semibold title pt-4">{category}</h3>
+      <p className="text-sm text-gray-400 pt-2">
+        {available_jobs} Jobs Available
+      </p>
     </div>
   );
 };
