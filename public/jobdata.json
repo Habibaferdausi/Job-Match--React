@@ -28,7 +28,7 @@
     "fulltime_or_parttime": "Part-time",
     "salary": "$100,000 - $120,000",
     "job_description": "Acme Corporation is seeking a highly motivated software engineer to join our team.",
-    "job_responsibility": "- Develop and maintain software applications using modern programming languages and technologies.\n- Collaborate with cross-functional teams to design, develop, and test new features and functionality.\n- Troubleshoot and debug issues as they arise in a timely manner.\n- Participate in code reviews and provide constructive feedback to improve code quality and maintainability.\n- Stay up-to-date with emerging trends and technologies in software engineering.",
+    "job_responsibility": "Develop and maintain software applications using modern programming languages and technologies.\n- Collaborate with cross-functional teams to design, develop, and test new features and functionality.\n- Troubleshoot and debug issues as they arise in a timely manner.\n- Participate in code reviews and provide constructive feedback to improve code quality and maintainability.\n- Stay up-to-date with emerging trends and technologies in software engineering.",
     "educational_requirements": "Bachelor's degree in Computer Science or related field.",
     "experiences": "3+ years of experience in software engineering.",
     "contact_information": {
