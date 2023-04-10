@@ -1,13 +1,28 @@
-import React from "react";
 import { useLoaderData } from "react-router-dom";
 import JobCategory from "./JobCategory";
+import { useEffect, useState } from "react";
+import JobsCard from "./JobsCard";
+import { data } from "autoprefixer";
 
 const Home = () => {
   const jobs = useLoaderData();
   console.log(jobs);
+
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("jobdata.json");
+      const jsonData = await response.json();
+      setData(jsonData);
+    };
+
+    fetchData();
+  }, []);
+
   return (
-    <div className="my-container  pb-10">
-      <div className="lg:flex  bg-gray-200 pb-40">
+    <div className="my-container mx-auto  pb-10">
+      <div className="lg:flex  pb-40">
         <div className="w-1/3 mt-5 ms-2">
           <h1 className="text-gray-700 text-xl lg:text-5xl lg:font-bold ">
             Discover Your Ideal Career with
@@ -21,10 +36,7 @@ const Home = () => {
           <button className="btn-new mt-5">Get Started </button>
         </div>
         <div className="">
-          <img
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
-          ></img>
+          <img src="../assets//All-Images/P3OLG.png" alt=""></img>
         </div>
       </div>
       <div className="mt-30">
@@ -52,7 +64,14 @@ const Home = () => {
             need. Its your future
           </p>
         </div>
-        <div></div>
+        <div className=" grid gap-5 mb-8 mx-20 lg:grid-cols-2 sm:grid-cols-1">
+          {data.map((item) => (
+            <JobsCard key={item.id} item={item}></JobsCard>
+          ))}
+        </div>
+        <div className="flex justify-center text-center mx-auto">
+          <button className="btn-new ">Show All</button>
+        </div>
       </div>
     </div>
   );

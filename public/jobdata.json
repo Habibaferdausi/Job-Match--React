@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
+    "job_title": "Technical Database Engineer",
+    "company_name": "Google LLC",
+    "remote_or_onsite": "Remote",
+    "location": "Dhaka,Bangladesh ",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "Job Description: A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..",
+    "job_responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in software engineering.",
+    "contact_information": {
+      "phone": "129-555-5438",
+      "email": "jobs@google.com"
+    }
+  },
+
+  {
+    "id": 2,
+    "company_logo": "https://example.com/logo.png",
+    "job_title": "Software Engineer",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "Acme Corporation is seeking a highly motivated software engineer to join our team.",
+    "job_responsibility": "- Develop and maintain software applications using modern programming languages and technologies.\n- Collaborate with cross-functional teams to design, develop, and test new features and functionality.\n- Troubleshoot and debug issues as they arise in a timely manner.\n- Participate in code reviews and provide constructive feedback to improve code quality and maintainability.\n- Stay up-to-date with emerging trends and technologies in software engineering.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in software engineering.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "jobs@acmecorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "../src/assets/Logo/tesla-9 1.png",
+    "job_title": "Marketing Coordinator",
+    "company_name": "Tesla",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$50,000 - $60,000",
+    "job_description": "Tesla is seeking a highly motivated marketing coordinator to join our team.",
+    "job_responsibility": "- Develop and execute marketing campaigns across multiple channels.\n- Manage social media accounts and create engaging content.\n- Collaborate with cross-functional teams to develop marketing materials.\n- Conduct market research to identify trends and opportunities.\n- Analyze campaign performance and provide insights for improvement.",
+    "educational_requirements": "Bachelor's degree in Marketing or related field.",
+    "experiences": "2+ years of experience in marketing.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "jobs@xyzinc.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://example.com/logo.png",
+    "job_title": "Graphic Designer",
+    "company_name": "ABC Corp.",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $70,000",
+    "job_description": "ABC Corp. is seeking a highly creative graphic designer to join our team.",
+    "job_responsibility": "- Develop and execute design concepts for marketing materials, websites, and mobile applications.\n- Collaborate with cross-functional teams to ensure designs meet business requirements.\n- Create visual designs that effectively communicate ideas and concepts.\n- Develop design templates for various marketing materials.\n- Stay up-to-date with emerging trends and technologies in graphic design.",
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+    "experiences": "3+ years of experience in graphic design.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "jobs@abccorp.com"
+    }
+  }
+]
