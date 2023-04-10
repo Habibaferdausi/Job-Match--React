@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="bg-gray-200 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div className="bg-purple-100 px-4 py-5  sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div className="relative flex items-center justify-between">
-        <Link to="/" className="inline-flex items-center">
+        <Link to="/" className="inline-flex items-center ps-7">
           <p className="ml-2 text-2xl font-bold tracking-wide text-gray-700">
             Job<span className="text-purple-700">Match </span>
           </p>

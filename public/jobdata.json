@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
-    "job_title": "Technical Database Engineer",
-    "company_name": "Google LLC",
-    "remote_or_onsite": "Remote",
+    "company_logo": "../src/assets/Logo/fanta.png",
+    "job_title": "Senior Marketing Officer",
+    "company_name": "Fanta",
+    "remote_or_onsite": "Onsite",
     "location": "Dhaka,Bangladesh ",
     "fulltime_or_parttime": "Full-time",
     "salary": "$100,000 - $120,000",
-    "job_description": "Job Description: A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..",
-    "job_responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
-    "experiences": "3+ years of experience in software engineering.",
+    "job_description": "A Senior Marketing Officer oversees the development and implementation of marketing strategies and tactics to achieve the company's objectives",
+    "job_responsibility": " Lead a team of marketing professionals, coordinate with other departments, and report to the marketing director or chief marketing officer with business and technical requirements. You will need to be able to effectively communicate your ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Marketing or related field.",
+    "experiences": "3+ years of experience in Marketing Field",
     "contact_information": {
       "phone": "129-555-5438",
-      "email": "jobs@google.com"
+      "email": "jobs@fanta.com"
     }
   },
 
   {
     "id": 2,
-    "company_logo": "https://example.com/logo.png",
+    "company_logo": "../src/assets/Logo/yoko.png",
     "job_title": "Software Engineer",
-    "company_name": "Acme Corporation",
+    "company_name": "Yoko Corporation",
     "remote_or_onsite": "Remote",
     "location": "Any",
     "fulltime_or_parttime": "Part-time",
@@ -36,9 +36,48 @@
       "email": "jobs@acmecorp.com"
     }
   },
+
   {
     "id": 3,
-    "company_logo": "../src/assets/Logo/tesla-9 1.png",
+    "company_logo": "../src/assets/Logo/orion.png",
+    "job_title": "Graphic Designer",
+    "company_name": "ABC Corp.",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$60,000 - $70,000",
+    "job_description": "ABC Corp. is seeking a highly creative graphic designer to join our team.",
+    "job_responsibility": "- Develop and execute design concepts for marketing materials, websites, and mobile applications.\n- Collaborate with cross-functional teams to ensure designs meet business requirements.\n- Create visual designs that effectively communicate ideas and concepts.\n- Develop design templates for various marketing materials.\n- Stay up-to-date with emerging trends and technologies in graphic design.",
+    "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
+    "experiences": "3+ years of experience in graphic design.",
+    "contact_information": {
+      "phone": "555-555-5555",
+      "email": "jobs@abccorp.com"
+    }
+  },
+
+  {
+    "id": 4,
+    "company_logo": "../src/assets/Logo/hundai.png",
+    "job_title": "Technician",
+    "company_name": "Hyundai",
+    "remote_or_onsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$70,000 - $80,000",
+    "job_description": "Hyundai is seeking a skilled professional who specializes in the installation, maintenance, repair, and troubleshooting of equipment, machinery, and systems in a variety of industries.",
+    "job_responsibility": "Diagnosing and repairing technical issues, conducting routine maintenance, staying up-to-date with the latest technologies, collaborating with others, and ensuring that Hyundai vehicles are running efficiently while providing excellent customer service.",
+    "educational_requirements": "Bachelor's degree  or diploma in technical field.",
+    "experiences": "2+ years of experience in technical field.",
+    "contact_information": {
+      "phone": "924-565-5555",
+      "email": "jobs@hyundai.com"
+    }
+  },
+
+  {
+    "id": 5,
+    "company_logo": "../src/assets/Logo/t (1).png",
     "job_title": "Marketing Coordinator",
     "company_name": "Tesla",
     "remote_or_onsite": "Onsite",
@@ -54,22 +93,23 @@
       "email": "jobs@xyzinc.com"
     }
   },
+
   {
-    "id": 4,
-    "company_logo": "https://example.com/logo.png",
-    "job_title": "Graphic Designer",
-    "company_name": "ABC Corp.",
+    "id": 6,
+    "company_logo": "../src/assets/Logo/Google_2015_logo.svg-removebg-preview.png",
+    "job_title": "Technical Database Engineer",
+    "company_name": "Google LLC",
     "remote_or_onsite": "Remote",
-    "location": "Any",
+    "location": "Dhaka,Bangladesh ",
     "fulltime_or_parttime": "Full-time",
-    "salary": "$60,000 - $70,000",
-    "job_description": "ABC Corp. is seeking a highly creative graphic designer to join our team.",
-    "job_responsibility": "- Develop and execute design concepts for marketing materials, websites, and mobile applications.\n- Collaborate with cross-functional teams to ensure designs meet business requirements.\n- Create visual designs that effectively communicate ideas and concepts.\n- Develop design templates for various marketing materials.\n- Stay up-to-date with emerging trends and technologies in graphic design.",
-    "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
-    "experiences": "3+ years of experience in graphic design.",
+    "salary": "$100,000 - $120,000",
+    "job_description": "Job Description: A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface..",
+    "job_responsibility": " Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "3+ years of experience in software engineering.",
     "contact_information": {
-      "phone": "555-555-5555",
-      "email": "jobs@abccorp.com"
+      "phone": "129-555-5438",
+      "email": "jobs@google.com"
     }
   }
 ]
