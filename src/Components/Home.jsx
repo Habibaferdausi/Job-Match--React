@@ -13,7 +13,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("jobdata.json");
+      const response = await fetch("/jobData.json");
       const jsonData = await response.json();
       setData(jsonData);
     };
@@ -26,10 +26,10 @@ const Home = () => {
   };
 
   return (
-    <div className="my-container  pb-10">
-      <div className="lg:flex  pb-20 mb-10 bg-purple-100">
-        <div className="w-1/3 pt-10 ms-2">
-          <h1 className="text-gray-700 text-xl mt-12 ms-7 lg:text-5xl lg:font-bold ">
+    <div className="">
+      <div className="lg:flex  mb-10 bg-purple-100 px-20">
+        <div className="w-1/2 pt-10 ps-5">
+          <h1 className="text-gray-700 text-xl mt-12  lg:text-6xl lg:font-bold ">
             Discover Your Ideal Career with
             <span className="text-purple-700"> Job Match</span>{" "}
           </h1>
@@ -41,7 +41,7 @@ const Home = () => {
           <button className="btn-new mt-5">Get Started </button>
         </div>
         <div className="">
-          <img src="../assets//All-Images/P3OLG.png" alt=""></img>
+          <img src="https://i.ibb.co/vdyyW7y/P3OLG.png" alt=""></img>
         </div>
       </div>
       <div className="my-10">
@@ -71,8 +71,8 @@ const Home = () => {
         </div>
         <div>
           <div className=" grid gap-5 mb-8 mx-20 lg:grid-cols-2 sm:grid-cols-1">
-            {data.slice(0, showAll).map((item) => (
-              <JobsCard key={item.id} item={item}></JobsCard>
+            {data.slice(0, showAll).map((jobCard) => (
+              <JobsCard key={jobCard.id} jobCard={jobCard} rd></JobsCard>
             ))}
           </div>
 

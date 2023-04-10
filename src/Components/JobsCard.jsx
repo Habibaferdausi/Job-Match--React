@@ -4,8 +4,9 @@ import {
   faLocationDot,
   faCircleDollarToSlot,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
-const JobsCard = (item) => {
+const JobsCard = (jobCard) => {
   const {
     id,
     job_title,
@@ -15,7 +16,7 @@ const JobsCard = (item) => {
     fulltime_or_parttime,
     company_name,
     salary,
-  } = item.item;
+  } = jobCard.jobCard;
 
   return (
     <div className=" p-7 rounded  bg-purple-100">
@@ -33,9 +34,9 @@ const JobsCard = (item) => {
           {fulltime_or_parttime}
         </button>
       </div>
-      <div className="flex pt-3 font-semibold">
-        <p className="text-sm text-gray-400    me-5">
-          <FontAwesomeIcon className="me-4" icon={faLocationDot} />
+      <div className="flex pt-3 font-semibold   justify-between">
+        <p className="text-sm text-gray-400  ">
+          <FontAwesomeIcon className="me-2" icon={faLocationDot} />
           {location}
         </p>
         <p className="text-sm text-gray-400 ">
@@ -44,7 +45,12 @@ const JobsCard = (item) => {
           Salary: {salary}
         </p>
       </div>
-      <button className="btn-new mt-5">View Details</button>
+
+      <div className="mt-8">
+        <Link to={`job/${jobCard.jobCard.id}`} className="btn-new mt-5">
+          View Details
+        </Link>
+      </div>
     </div>
   );
 };

@@ -8,9 +8,6 @@
   }
 }
 
-.my-container {
-  @apply sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24;
-}
 .title {
   @apply text-gray-700;
 }
