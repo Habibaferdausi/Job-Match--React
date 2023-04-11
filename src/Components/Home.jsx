@@ -27,9 +27,9 @@ const Home = () => {
 
   return (
     <div className="">
-      <div className="lg:flex  mb-10 bg-purple-100 px-20">
-        <div className="w-1/2 pt-10 ps-5">
-          <h1 className="text-gray-700 text-xl mt-12  lg:text-6xl lg:font-bold ">
+      <div className="lg:flex  mb-10 bg-purple-100 lg:px-20">
+        <div className="lg:w-1/2 pt-10 pb-2 ps-5">
+          <h1 className="text-gray-700 text-2xl font-bold mt-12  lg:text-6xl lg:font-bold ">
             Discover Your Ideal Career with
             <span className="text-purple-700"> Job Match</span>{" "}
           </h1>

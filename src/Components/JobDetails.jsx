@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import SingleJob from "./SingleJob";
+import SingleJob from "./AppliedJob";
+import { addToDb } from "../utilities/dataBase";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -15,7 +16,12 @@ const JobDetails = () => {
   }, []);
 
   const job = jobDetail.filter((jobDetail) => jobDetail.id === parseInt(id));
-  console.log(job);
+  //apply button
+  const handleAddToApply = (id) => {
+    console.log(id);
+    addToDb(id);
+  };
+
   return (
     <div>
       <div className="relative">
@@ -43,6 +49,7 @@ const JobDetails = () => {
           className="grid grid-cols-1 lg:grid-cols-3 mx-20 gap-5 my-20 "
           key={job.id}
           job={job}
+          handleAddToApply={handleAddToApply}
         >
           <div className="lg:col-span-2 ">
             <h1 className="py-1 text-gray-700">
@@ -89,8 +96,11 @@ const JobDetails = () => {
                 <h1 className="   mb-3  ">Address:{job.location}</h1>
               </div>
             </div>
-            <button className="btn-new text-center w-full mt-10">
-              {" "}
+            <button
+              onClick={() => handleAddToApply(job.id)}
+              type="button"
+              className="btn-new text-center w-full mt-10"
+            >
               Apply Now
             </button>
           </div>
