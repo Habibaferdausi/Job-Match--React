@@ -68,7 +68,7 @@ const Statistics = () => {
         </div>
       </div>
 
-      <div className="w-75">
+      <div className="w-full lg:w-75">
         <ResponsiveContainer width="100%" height={500}>
           <PieChart>
             <Pie

@@ -84,13 +84,13 @@ const AppliedJob = () => {
       {filteredJobs.map((job) => (
         <div key={job.id} job={job}>
           <div className="border border-purple-300 mb-5 p-6 lg:flex justify-between items-center mx-10">
-            <div className="lg:flex justify-between items-center">
+            <div className="lg:flex justify-between mb-4 items-center">
               <img
                 src={job.company_logo}
                 alt=""
                 className="rounded h-20 w-20 bg-purple-200"
               />
-              <div className="ms-4">
+              <div className="lg:ms-4">
                 <p className="font-semibold text-xl">{job.job_title}</p>
                 <p>
                   <span className="text-gray-500">{job.company_name}</span>
@@ -111,7 +111,7 @@ const AppliedJob = () => {
                     />
                     {job.location}
                   </p>
-                  <p className="text-sm text-gray-400 ms-3 ">
+                  <p className="text-sm text-gray-400 ms-1 lg:ms-3 ">
                     {" "}
                     <FontAwesomeIcon
                       className="me-1"
@@ -122,7 +122,7 @@ const AppliedJob = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="mt-8">
               <Link to={`../job/${job.id}`} className="btn-new mt-5">
                 View Details
               </Link>
