@@ -5,7 +5,7 @@ import {} from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <footer className="mt-10 pt-10  bg-black ">
-      <div className="grid gap-5 mb-2 lg:mx-20 mx-8  lg:grid-cols-5 grid-cols-1 py-10 text-gray-300">
+      <div className="grid gap-5 mb-2 lg:mx-20 mx-7  lg:grid-cols-5 grid-cols-1 py-10 text-gray-300">
         <div className="me-11">
           <h1 className="text-2xl font-bold mb-2 ">Job Match</h1>
           <p className="pt-2 mb-5  text-gray-400">
