@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "company_logo": "../src/assets/Logo/fanta.png",
+    "company_logo": "https://i.ibb.co/Vv0ZbjK/fanta.png",
     "job_title": "Senior Marketing Officer",
     "company_name": "Fanta",
     "remote_or_onsite": "Onsite",
@@ -20,7 +20,7 @@
 
   {
     "id": 2,
-    "company_logo": "../src/assets/Logo/yoko.png",
+    "company_logo": "https://i.ibb.co/DRXBP5s/yoko.png",
     "job_title": "Software Engineer",
     "company_name": "Yoko Corporation",
     "remote_or_onsite": "Remote",
@@ -39,7 +39,7 @@
 
   {
     "id": 3,
-    "company_logo": "../src/assets/Logo/orion.png",
+    "company_logo": "https://i.ibb.co/sQNXXxz/orion.png",
     "job_title": "Graphic Designer",
     "company_name": "ABC Corp.",
     "remote_or_onsite": "Remote",
@@ -58,7 +58,7 @@
 
   {
     "id": 4,
-    "company_logo": "../src/assets/Logo/hundai.png",
+    "company_logo": "https://i.ibb.co/hXC3jjX/hundai.png",
     "job_title": "Technician",
     "company_name": "Hyundai",
     "remote_or_onsite": "Onsite",
@@ -77,7 +77,7 @@
 
   {
     "id": 5,
-    "company_logo": "../src/assets/Logo/t (1).png",
+    "company_logo": "https://i.ibb.co/mckSvq4/tesla-9-1.png",
     "job_title": "Marketing Coordinator",
     "company_name": "Tesla",
     "remote_or_onsite": "Onsite",
@@ -96,7 +96,7 @@
 
   {
     "id": 6,
-    "company_logo": "../src/assets/Logo/Google_2015_logo.svg-removebg-preview.png",
+    "company_logo": "https://i.ibb.co/kqt0dFb/Google-2015-logo-svg-removebg-preview.png",
     "job_title": "Technical Database Engineer",
     "company_name": "Google LLC",
     "remote_or_onsite": "Remote",

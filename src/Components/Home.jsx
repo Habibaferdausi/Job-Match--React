@@ -6,7 +6,7 @@ import { data } from "autoprefixer";
 
 const Home = () => {
   const jobs = useLoaderData();
-  console.log(jobs);
+  // console.log(jobs);
 
   const [data, setData] = useState([]);
   const [showAll, setShowAll] = useState(4);
@@ -53,7 +53,7 @@ const Home = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid gap-5 mb-8 mx-20 lg:grid-cols-4 sm:grid-cols-2">
+      <div className="grid gap-5 mb-8 mx-5 lg:mx-20 lg:grid-cols-4 grid-cols-1">
         {jobs.map((job) => (
           <JobCategory key={job.id} job={job}></JobCategory>
         ))}
@@ -70,7 +70,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <div className=" grid gap-5 mb-8 mx-20 lg:grid-cols-2 sm:grid-cols-1">
+          <div className=" grid gap-5 mb-8 mx-5 lg:mx-20 lg:grid-cols-2 grid-cols-1">
             {data.slice(0, showAll).map((jobCard) => (
               <JobsCard key={jobCard.id} jobCard={jobCard} rd></JobsCard>
             ))}

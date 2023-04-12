@@ -1,12 +1,16 @@
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const addToDb = (id) => {
   let appliedJob = getAppliedJob();
   // add quantity
   const quantity = appliedJob[id];
   if (!quantity) {
     appliedJob[id] = 1;
+    toast("Successfully Added on Applied Jobs");
   } else {
-    const newQuantity = quantity + 1;
-    appliedJob[id] = newQuantity;
+    toast.error("This Job Already Added");
+    return;
   }
   localStorage.setItem("applied-job", JSON.stringify(appliedJob));
 };

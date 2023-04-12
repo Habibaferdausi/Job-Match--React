@@ -2,6 +2,15 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import SingleJob from "./AppliedJob";
 import { addToDb } from "../utilities/dataBase";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faCircleDollarToSlot,
+  faPhone,
+  faVoicemail,
+  faPersonBurst,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -18,14 +27,14 @@ const JobDetails = () => {
   const job = jobDetail.filter((jobDetail) => jobDetail.id === parseInt(id));
   //apply button
   const handleAddToApply = (id) => {
-    console.log(id);
+    //console.log(id);
     addToDb(id);
   };
 
   return (
     <div>
       <div className="relative">
-        <div className="flex items-center justify-between h-40 bg-purple-100">
+        <div className="flex items-center justify-between h-20 lg:h-40 bg-purple-100">
           <img
             src="https://i.ibb.co/4V7V2m4/Vector.png"
             alt="Image 1"
@@ -46,7 +55,7 @@ const JobDetails = () => {
 
       {job.map((job) => (
         <div
-          className="grid grid-cols-1 lg:grid-cols-3 mx-20 gap-5 my-20 "
+          className="grid grid-cols-1 lg:grid-cols-3 mx-5 lg:mx-20 gap-5 my-20 "
           key={job.id}
           job={job}
           handleAddToApply={handleAddToApply}
@@ -82,18 +91,51 @@ const JobDetails = () => {
                 <h1 className="text-lg border-b-2 border-purple-400 mb-3 pb-5 font-bold">
                   Job Details
                 </h1>
-                <h1 className="   mb-3  ">Salary :{job.salary}</h1>
-                <h1 className="  mb-3 ">Job Title :{job.job_title}</h1>
-                <h1 className="text-lg border-b-2 border-purple-400 mb-3 pb-5 font-bold">
+                <h1 className="   mb-3  ">
+                  {" "}
+                  <FontAwesomeIcon
+                    className="me-2 text-purple-400"
+                    icon={faCircleDollarToSlot}
+                  />
+                  <span className="font-semibold">Salary: </span> {job.salary}
+                </h1>
+                <h1 className="  mb-3 ">
+                  {" "}
+                  <FontAwesomeIcon
+                    className="me-2 text-purple-400"
+                    icon={faPersonBurst}
+                  />
+                  <span className="font-semibold">Job Title : </span>
+                  {job.job_title}
+                </h1>
+                <h1 className="text-lg border-b-2 border-purple-400 mb-3 pb-4 mt-2 font-bold">
                   Contact Information
                 </h1>
                 <h1 className="   mb-3  ">
-                  Phone:{job.contact_information.phone}
+                  <FontAwesomeIcon
+                    className="me-2 text-purple-400"
+                    icon={faPhone}
+                  />{" "}
+                  <span className="font-semibold">Phone : </span>
+                  {job.contact_information.phone}
                 </h1>
                 <h1 className="   mb-3  ">
-                  Email:{job.contact_information.email}
+                  {" "}
+                  <FontAwesomeIcon
+                    className="me-2 text-purple-400"
+                    icon={faEnvelope}
+                  />{" "}
+                  <span className="font-semibold">Email : </span>
+                  {job.contact_information.email}
                 </h1>
-                <h1 className="   mb-3  ">Address:{job.location}</h1>
+                <h1 className="mb-3">
+                  <FontAwesomeIcon
+                    className="me-2 text-purple-400"
+                    icon={faLocationDot}
+                  />{" "}
+                  <span className="font-semibold">Address : </span>
+                  {job.location}
+                </h1>
               </div>
             </div>
             <button
