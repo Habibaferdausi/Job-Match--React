@@ -16,8 +16,6 @@ const JobDetails = () => {
   const { id } = useParams();
   const [jobDetail, setJob] = useState([]);
 
-  // const allJobs = useLoaderData();
-
   useEffect(() => {
     fetch("/jobData.json")
       .then((res) => res.json())
@@ -27,7 +25,7 @@ const JobDetails = () => {
   const job = jobDetail.filter((jobDetail) => jobDetail.id === parseInt(id));
   //apply button
   const handleAddToApply = (id) => {
-    //console.log(id);
+    console.log(id);
     addToDb(id);
   };
 

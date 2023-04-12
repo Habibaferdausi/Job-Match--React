@@ -6,7 +6,7 @@ import { data } from "autoprefixer";
 
 const Home = () => {
   const jobs = useLoaderData();
-  // console.log(jobs);
+
 
   const [data, setData] = useState([]);
   const [showAll, setShowAll] = useState(4);
