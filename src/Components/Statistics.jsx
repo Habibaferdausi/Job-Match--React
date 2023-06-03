@@ -52,12 +52,12 @@ const Statistics = () => {
     <div className="relative">
       <div className="flex items-center justify-between h-40 bg-purple-100">
         <img
-          src="https://i.ibb.co/4V7V2m4/Vector.png"
+          src="https://i.ibb.co/5Wg3DcY/Vector.png"
           alt="Image 1"
           className="w-1/6 h-50 object-cover"
         />
         <img
-          src="https://i.ibb.co/9vx46mz/Vector-1.png"
+          src="https://i.ibb.co/sF45rDh/Vector-1.png"
           alt="Image 2"
           className="w-1/6 mb-40 h-50 object-cover"
         />

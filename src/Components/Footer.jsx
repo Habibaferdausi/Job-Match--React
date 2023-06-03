@@ -12,7 +12,7 @@ const Footer = () => {
             One Step Closer To Your Dream Job. Find your best one.
           </p>
           <img
-            src="https://i.ibb.co/SDjCns9/Group-9969.png"
+            src="https://i.ibb.co/W5vz5RY/Group-9969.png"
             alt=""
             className="w-40"
           />

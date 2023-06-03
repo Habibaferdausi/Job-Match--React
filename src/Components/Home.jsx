@@ -7,7 +7,6 @@ import { data } from "autoprefixer";
 const Home = () => {
   const jobs = useLoaderData();
 
-
   const [data, setData] = useState([]);
   const [showAll, setShowAll] = useState(4);
 
@@ -41,7 +40,7 @@ const Home = () => {
           <button className="btn-new mt-5">Get Started </button>
         </div>
         <div className="">
-          <img src="https://i.ibb.co/vdyyW7y/P3OLG.png" alt=""></img>
+          <img src="https://i.ibb.co/WnTvgH0/P3OLG.png" alt=""></img>
         </div>
       </div>
       <div className="my-10">
